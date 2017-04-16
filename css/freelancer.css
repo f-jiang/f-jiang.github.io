@@ -35,8 +35,7 @@ h6 {
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  color: #2C3E50;
 }
 header .container {
   padding-top: 100px;
@@ -143,13 +142,15 @@ header .intro-text .skills {
 section {
   padding: 100px 0;
 }
+section#portfolio, section#contact{
+  background-color: #ffffff;
+}
 section h2 {
   margin: 0 0 40px 0;
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  color: #2C3E50;
 }
 @media (max-width: 767px) {
   section {
@@ -274,9 +275,9 @@ footer .footer-below {
   background-color: #233140;
 }
 .btn-outline {
-  color: white;
+  color: #2C3E50;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px #2C3E50;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -286,8 +287,8 @@ footer .footer-below {
 .btn-outline:active,
 .btn-outline.active {
   color: #18BC9C;
-  background: white;
-  border: solid 2px white;
+  background: #2C3E50;
+  border: solid 2px #2C3E50;
 }
 .btn-primary {
   color: white;
@@ -377,11 +378,11 @@ fieldset[disabled] .btn-success.active {
   display: inline-block;
   height: 100px;
   width: 100px;
-  border: 2px solid white;
+  border: 2px solid #2C3E50;
   border-radius: 100%;
   text-align: center;
   font-size: 40px;
-  line-height: 95px;
+  line-height: 100px;
 }
 .scroll-top {
   position: fixed;
