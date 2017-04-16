@@ -13,9 +13,5 @@
     "font-awesome": "^4.6.3",
     "jquery": "^1.11.3",
     "particles.js": "^2.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
   }
 }
