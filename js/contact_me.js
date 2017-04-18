@@ -21,15 +21,17 @@ $(function () {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $.ajax({
-        url: "././mail/contact_me.php",
+        url: "https://formspree.io/feilanjiang@gmail.com",
         type: "POST",
+        dataType: "json",
         data: {
           name: name,
           phone: phone,
           email: email,
-          message: message
+          message: message,
+          _replyto: email,
+          _subject: "portfolio site contact"
         },
-        cache: false,
         success: function () {
           // Enable button & show success message
           $("#btnSubmit").attr("disabled", false);
