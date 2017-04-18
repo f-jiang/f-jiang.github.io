@@ -13,5 +13,9 @@
     "font-awesome": "^4.6.3",
     "jquery": "^1.11.3",
     "particles.js": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemailer": "^4.0.1"
   }
 }
